@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo JQUERY Mobile</title>
+	<link rel="stylesheet" href="jquerymobile/jquery.mobile-1.4.5.min.css" />
+
+	<link rel="stylesheet" href="jquerymobile/tema2.min.css" />
+	<link rel="stylesheet" href="jquerymobile/jquery.mobile.icons.min.css">
+	<script src="jquerymobile/jquery-1.11.1.min.js"></script>
+	<script src="jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: darkblue;">
+	<div data-role="page" id="inicio" data-theme="a">
+
+		<div data-role="header">
+			<h1>Steam</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<h2>Bienvenido a Steam!</h2><hr>
+			<p>
+				esta pagina esta diseñada para la compra de videojuegos en linea 😎 <br><br>
+
+				El servicio principal de Steam es el de permitir a sus usuarios descargar 
+				juegos y otro software desde sus bibliotecas de software virtual a sus ordenadores. 
+				Los juegos que son integrados en Steam son almacenados en el disco duro como archivos únicos no comprimidos con la extensión <br><br>
+				Steam incluye un escaparate digital llamado la Tienda Valve, a través de la cual los usuarios pueden comprar juegos de ordenador digitalmente. 
+				Una vez comprados, el programa es asociado en forma permanente a la cuenta de Steam del usuario <br><br>
+
+				&copy; Jesús Manuel Páez Ramírez 6AVP CETIS 107
+				
+			</p>
+			
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#inicio" data-icon="grid" class="ui-btn-active">Inicio</a></li>
+					<li><a href="#productos" data-icon="star">Productos</a></li>
+					<li><a href="#carrito" data-icon="gear">Carrito</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="productos" data-theme="b">
+		<div data-role="header">
+			<h1>juegos</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<h2>Juegos Disponibles</h2><hr>
+			<ol data-role="listview">
+			    <li>Counter Strike Global Ofensive</li>
+			    <li>Elden ring</li>
+			    <li>Rocket League </li>
+			    <li>Fall guys </li>
+			    <li>Lost ark</li>
+			</ol>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#inicio" data-icon="grid" class="ui-btn-active">Inicio</a></li>
+					<li><a href="#productos" data-icon="star">Productos</a></li>
+					<li><a href="#carrito" data-icon="gear">Carrito</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="carrito" data-theme="c">
+		<div data-role="header">
+			<h1>Compras</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<h2>Carrito de compras</h2><hr>
+			<ul data-role="listview" data-inset="true">
+			    <li><a href="#">
+			        <img src="img/lite.png">
+			        <h2>Counter Strike Global Ofensive</h2>
+			        <p>12 USD</p></a>
+			    </li>
+				<li><a href="#">
+			        <img src="img/name.png">
+			        <h2>Elden Ring</h2>
+			        <p>60.99 USD</p></a>
+			    </li>
+				<li><a href="#">
+			        <img src="img/dev.png">
+			        <h2>Rocket League</h2>
+			        <p>25.85 USD </p></a>
+			    </li>
+				<li><a href="#">
+			        <img src="img/terra.jpg">
+			        <h2>fall guys</h2>
+			        <p>15.99 USD</p></a>
+			    </li>
+				<li><a href="#">
+			        <img src="img/doge.png">
+			        <h2>lost ark</h2>
+			        <p>FREE!</p></a>
+			    </li>
+			</ul>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#inicio" data-icon="grid" class="ui-btn-active">Inicio</a></li>
+					<li><a href="#productos" data-icon="star">Productos</a></li>
+					<li><a href="#carrito" data-icon="gear">Carrito</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
