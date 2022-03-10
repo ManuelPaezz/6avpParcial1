@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="javascript.js"></script>
+	<title>Práctica Javascript</title>
+</head>
+<body style="background-color: royalblue;">
+	<h1>Práctica Javascript</h1><hr>
+
+	<div id="div1" onmouseover="cambiaColor()" onmouseleave="regresaColor()">
+		Texto del div 1
+	</div>
+
+	<button onclick="cambiaColor()">Cambiar color</button>
+
+	<h2>Productos</h2><hr>
+	<h3>Producto 1 😂 <input type="text" id="p1" value="0" onchange="actualizaTotal(document.getElementById('p1').value)"></h3>
+	<h3>Producto 2 😎 <input type="text" id="p2" value="0" onchange="actualizaTotal(document.getElementById('p2').value)"></h3>
+	<h3>Producto 3 😊 <input type="text" id="p3" value="0" onchange="actualizaTotal(document.getElementById('p3').value)"></h3>
+	<h3>Producto 4 😋 <input type="text" id="p4" value="0" onchange="actualizaTotal(document.getElementById('p4').value)"></h3>
+
+	<h3>Total 🤑<input type="text" value="0" id="total"></h3>
+
+	&copy; Jesus Manuel Páez Ramírez 6AVP CETIS 107
+</body>
+</html>
